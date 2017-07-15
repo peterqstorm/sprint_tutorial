@@ -81,7 +81,7 @@ Two most reliable (free) tools to provision development environments I know:
 +------------------------+------------------------------------------------+-----------------------------------------------------+
 | 2. Create a new env    | edm environments create --version 3.6 devenv   | conda create -n devenv python=3.6                   |
 +------------------------+------------------------------------------------+-----------------------------------------------------+
-| 3. Activate new envir. | edm shell -e devenv                            | source activate devenv                              |
+| 3. Activate new envir. | edm shell -e devenv                            | source activate devenv (Windows: activate devenv)   |
 +------------------------+------------------------------------------------+-----------------------------------------------------+
 | 4. Add dependencies    | edm install "numpy==1.11.3-2" scipy            | conda install numpy=1.11 scipy                      |
 +------------------------+------------------------------------------------+-----------------------------------------------------+
